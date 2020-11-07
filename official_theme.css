@@ -46,8 +46,7 @@
 
   /* colour for the following things:
      - channel icon, text with "Today at ..." by message
-     - "Message #channel/user"
-     - DISCORD in top left hand corner */
+     - "Message #channel/user" */
   --text-muted: #b6b6b6 !important;
 
   /* colour of text in messages and discord logo in top
@@ -76,9 +75,9 @@
      - text in a codeblock
      - text in a channel topic when you look but don't click on it
      - the bit that says ROLES and NOTE when looking at profile
-        via member list
+       via member list
      - the colour of someone's username (if they don't have a nickname)
-        when accessed via member list */
+       when accessed via member list */
   --header-secondary: #c9c9c9 !important;
 
 
@@ -91,6 +90,7 @@
   --toast-box-shadow: rgba(0, 0, 0, .2) !important;
   --offline-color: #3c3c3c !important;
 }
+
 
 /* Add role box (thanku Luckfire!!!) */
   /* Add Role header */
@@ -118,7 +118,7 @@
   }
   /* pads it 12px from the left so the name doesnt look squished */
   .cursorPonter-YEp76E { 
-  padding-left: 12px
+    padding-left: 12px
   }
 
 
@@ -166,22 +166,6 @@ and on profile) */
   /* ah yes, the boat tag */
   .botTagRegular-2HEhHi::after, .botTagInvert-18-95s::after {
     content: 'boat';
-  }
-
-
-/* Create channel popup */
-  .modal-yWgWj- {
-    background-color: var(--background-floating);
-  }
-
-  /* Input box for channel name */
-  .inputDefault-_djjkz.input-cIJ7To {
-    background-color: var(--background-tertiary) !important;
-  }
-
-  /* Background for the buttons below the channel options */
-  .flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-3rDWdC {
-    background-color: var(--background-tertiary) !important;
   }
 
 
@@ -392,7 +376,8 @@ div.message-2qnXI6:hover {
     width: var(--status-icon-size);
     margin-left: 33%;
   }
-  .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
+  .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 >
+  .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
     display: grid;
     align-items: center;
     grid-template-columns: auto auto auto auto;
@@ -436,7 +421,8 @@ amazing LuckFire#4800! */
   .react-datepicker__header {
     background-color: var(--background-secondary) !important;
   }
-  .react-datepicker__day:not(:hover):not(.react-datepicker__day--disabled):not(.react-datepicker__day--outside-month) {
+  .react-datepicker__day:not(:hover):not(
+    .react-datepicker__day--disabled):not(.react-datepicker__day--outside-month) {
     background-color: var(--background-secondary-alt) !important;
   }
   .react-datepicker__day {
@@ -473,7 +459,7 @@ amazing LuckFire#4800! */
   }
   .wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active .lottieCanvas-1W7L-f,
   .wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active .pngImage-33yLRP {
-      display:block;
+    display:block;
   }
 
 
@@ -484,7 +470,7 @@ amazing LuckFire#4800! */
   }
 
   /* changes colour of footer */
-  .flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-2gL1pp {
+  .modal-2VIBV8.root-1gCeng > .footer-2gL1pp {  /* turkey snapper you're a genius thank you */
     background-color: var(--background-secondary-alt);
   }
 
@@ -504,7 +490,9 @@ amazing LuckFire#4800! */
 /* VC backround image */
   .minimum-28Z35l > .root-217Brm,
   .video--KPXCT > .root-217Brm {
-    background: url("https://cdn.discordapp.com/attachments/704992456634007563/772188587000070174/highscore.png") center/100% no-repeat;
+    background:
+      url("https://cdn.discordapp.com/attachments/704992456634007563/772188587000070174/highscore.png")
+      center/100% no-repeat;
   }
   .minimum-28Z35l > .root-217Brm::before,
   .video--KPXCT > .root-217Brm::before {
