@@ -4,72 +4,72 @@
 /* variables and shit */
 :root {
   /* self explanatory (hopefully) */
-  --background-accent: #14171f; !important;
+  --background-accent: #4c566a; !important;
 
   /* colour of links (including in embeds) */
-  --text-link: #81D8D0;
+  --text-link: #88c0d0;
 
   /* colour of right hand side of screen and chat */
-  --background-primary: #181c25 !important;
+  --background-primary: #434c5e !important;
 
   /* embed backround/text channel list/member list colour */
-  --background-secondary: #14171f !important;
+  --background-secondary: #3b4252 !important;
 
   /* colour of change status/mute mic/deafen/user settings patch */
-  --background-secondary-alt: #0c0e13 !important;
+  --background-secondary-alt: #3b4252 !important;
 
   /* colour of panel when you click on server name/edit message */
-  --background-floating: #0c0e13 !important;
+  --background-floating: #2e3440 !important;
 
   /* colour of border around [top of] discord */
-  --background-tertiary: #0c0e13 !important;
+  --background-tertiary: #2e3440 !important;
 
   /* colour of text box that you type in */
-  --channeltextarea-background: var(--background-accent) !important;
+  --channeltextarea-background: var(--background-secondary) !important;
 
   /* colours of things when you hover over them; e.g. a channel/user */
-  --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
-  --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
-  --background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
+  --background-modifier-hover: rgba(46, 52, 64, 0.01) !important;
+  --background-modifier-active: rgba(46, 52, 64, 0.03) !important;
+  --background-modifier-selected: rgba(46, 52, 64, 0.04) !important;
 
   /* colour of channel name's text */
-  --channels-default: #9f9f9f !important;
+  --channels-default: #e5e9f0 !important;
 
   /* colour of message when hovering over it */
-  --message-hover: #15181e !important;
+  --message-hover: #3b4252 !important;
 
   /* colour of search bar */
-  --search-menu-colour: #0c0e13 !important;
+  --search-menu-colour: #3b4252 !important;
 
   /* colour of spoilered text */
-  --spoiler-colour: #00000d;
+  --spoiler-colour: #2e3440;
 
   /* colour for the following things:
      - channel icon, text with "Today at ..." by message
      - "Message #channel/user" */
-  --text-muted: #b6b6b6 !important;
+  --text-muted: #e5e9f0 !important;
 
   /* colour of text in messages and discord logo in top
   left hand corner */
-  --text-normal: #fbfbfb !important;
+  --text-normal: #eceff4 !important;
 
   /* colour of interactive buttons when looked at, e.g.:
      - pinned messages
      - mute mic/deafen/user settings
      - mentions inbox
      - text names of settings */
-  --interactive-normal: #c8c8c8 !important;
+  --interactive-normal: #e5e9f0 !important;
 
   /* colour of text/button in interactive buttons (and text channel
   names) when hovered over */
-  --interactive-hover: #ff1493 !important;
+  --interactive-hover: #5e81ac !important;
 
   /* colour of things that are currently selected (e.g. colour of
   channel name that you are participating in) */
-  --interactive-active: #fff !important;
+  --interactive-active: #81a1c1 !important;
 
   /* colour of muted channel names */
-  --interactive-muted: #30343d !important;
+  --interactive-muted: #2e3440 !important;
 
   /* colour of:
      - text in a codeblock
@@ -117,7 +117,7 @@
     display: none;
   }
   /* pads it 12px from the left so the name doesnt look squished */
-  .cursorPonter-YEp76E { 
+  .cursorPonter-YEp76E {
     padding-left: 12px
   }
 
@@ -165,7 +165,7 @@ and on profile) */
 
   /* ah yes, the boat tag */
   .botTagRegular-2HEhHi::after, .botTagInvert-18-95s::after {
-    content: 'boat';
+    content: 'bot';
   }
 
 
@@ -187,7 +187,7 @@ and on profile) */
   }
   .wordmark-2iDDfm:after {
     font-family: "Discord";
-    content: "Dicksword!";
+    content: "Nordcord";
     font-size: 15px;
     background: rgb(255, 255, 255, 0.3);
     background-size: 400% 400%;
@@ -311,15 +311,15 @@ div.message-2qnXI6:hover {
 
 
 /* Better Playing Modals, again from Luckfire#4800 :') */
-  .headerPlaying-j0WQBV, 
+  .headerPlaying-j0WQBV,
   .topSectionPlaying-1J5E4n {
     background-color: var(--background-accent);
   }
-  .headerSpotify-zpWxgT, 
+  .headerSpotify-zpWxgT,
   .topSectionSpotify-1lI0-P {
     background-color: var(--background-accent);
   }
-  .headerStreaming-2FjmGz, 
+  .headerStreaming-2FjmGz,
   .topSectionStreaming-1Tpf5X {
     background-color: var(--background-accent);
   }
@@ -372,7 +372,7 @@ div.message-2qnXI6:hover {
   }
   .mask-1qbNWk.icon-1IxfJ2 {
     --status-icon-size: 75%;
-    height: var(--status-icon-size); 
+    height: var(--status-icon-size);
     width: var(--status-icon-size);
     margin-left: 33%;
   }
