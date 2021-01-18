@@ -1,7 +1,7 @@
 {
     "name": "nordcord",
     "description": "A nord theme for discord. Uses midnightcord by madeleine#0173 as a base.",
-    "version": "1.0.0",
+    "version": "0.0.5",
     "author": "brendanlane#0001",
     "theme": "theme.css",
     "license": "MIT"
